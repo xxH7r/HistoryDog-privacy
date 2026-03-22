@@ -1,7 +1,7 @@
-# 历史汪隐私说明 / History Wang Privacy Policy
+# 历史汪隐私说明 / HistoryDog Privacy Policy
 
 本隐私说明适用于 `历史汪` 浏览器扩展。  
-This privacy policy applies to the `History Wang` browser extension.
+This privacy policy applies to the `HistoryDog` browser extension.
 
 ## 中文
 
