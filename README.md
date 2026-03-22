@@ -1,5 +1,5 @@
-# historywang-privacy
-历史汪浏览器扩展的隐私政策页面 / Privacy policy for the History Wang browser extension
+# HistoryDog-privacy
+历史汪浏览器扩展的隐私政策页面 / Privacy policy for the HistoryDog browser extension
 ## 中文说明
 
 这个仓库用于公开托管 `历史汪` 浏览器扩展的隐私政策页面，方便在 Microsoft Edge 插件商店、产品官网或其他公开渠道中引用。
@@ -28,7 +28,7 @@
 
 ## English
 
-This repository hosts the public privacy policy for the `History Wang` browser extension. It is intended to provide a stable, publicly accessible URL for the Microsoft Edge Add-ons store, the product website, and other public references.
+This repository hosts the public privacy policy for the `HistoryDog` browser extension. It is intended to provide a stable, publicly accessible URL for the Microsoft Edge Add-ons store, the product website, and other public references.
 
 ### Repository Purpose
 
@@ -38,7 +38,7 @@ This repository hosts the public privacy policy for the `History Wang` browser e
 
 ### Product Scope
 
-- Product name: History Wang
+- Product name: HistoryDog
 - Product type: Browser extension
 - Supported platforms: Microsoft Edge / Google Chrome
 
