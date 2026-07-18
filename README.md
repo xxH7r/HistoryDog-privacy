@@ -4,7 +4,7 @@
 
 公开页面：<https://xxh7r.github.io/HistoryDog-privacy/>
 
-当前政策适用于 HistoryDog `0.7.1`，说明内容包括：
+当前政策适用于 HistoryDog `0.7.2`，说明内容包括：
 
 - 本地浏览历史检索与页面元数据索引
 - 本地保存的设置、最近搜索和 DeepSeek API Key
@@ -14,4 +14,4 @@
 
 This repository hosts the public bilingual privacy policy for the HistoryDog browser extension. It is intended for Microsoft Edge Add-ons, the Chrome Web Store, and other public references.
 
-The current policy applies to HistoryDog `0.7.1` and covers local history retrieval, the local page metadata index, locally stored settings and API keys, optional DeepSeek requests, data-sharing limits, retention, deletion, and user controls.
+The current policy applies to HistoryDog `0.7.2` and covers local history retrieval, the local page metadata index, locally stored settings and API keys, optional DeepSeek requests, data-sharing limits, retention, deletion, and user controls.

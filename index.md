@@ -1,6 +1,6 @@
 # 历史汪隐私政策 / HistoryDog Privacy Policy
 
-> 适用版本 / Applicable version: `0.7.1`<br>
+> 适用版本 / Applicable version: `0.7.2`<br>
 > 更新日期 / Last updated: `2026-07-19`
 
 本隐私政策适用于“历史汪 / HistoryDog”浏览器扩展。历史汪的核心功能是帮助用户在自己的浏览器中搜索并重新打开浏览历史记录。核心检索在本地完成；只有用户主动配置 DeepSeek API Key 后，扩展才会调用 DeepSeek 提供可选的查询规划和结果排序。
@@ -29,7 +29,7 @@ API Key 属于身份验证信息，仅保存在浏览器的扩展本地存储中
 - 检测到密码输入框的页面不会建立增强元数据索引。
 - URL 入库前会移除凭据、常见追踪参数，以及 token、password、session、auth 等敏感参数。用于本地页面识别的规范化 URL 可能保留少量非敏感参数。
 - 首次安装或升级时，扩展可从浏览器历史记录中导入最多约 365 天、50,000 条已有记录的标题和 URL，但不会联网回访旧网页以抓取内容。
-- 浏览器默认不允许扩展在 InPrivate/无痕窗口运行。如果用户在浏览器设置中明确允许本扩展在私密窗口运行，扩展功能可能依照本政策处理相关数据。
+- 无痕/InPrivate 标签页不会写入页面元数据索引；后台会根据浏览器提供的标签页私密状态拒绝保存。
 
 用户可以随时在设置页关闭或清空本地页面索引。
 
@@ -88,7 +88,7 @@ The local page metadata index is enabled by default to improve retrieval of page
 - Enhanced metadata is not indexed on pages where a password input is detected.
 - Before storage, URL credentials, common tracking parameters, and sensitive parameters such as token, password, session, and auth are removed. A normalized URL used only for local page identity may retain a limited number of non-sensitive parameters.
 - On first installation or upgrade, the extension may import titles and URLs for up to approximately 365 days and 50,000 existing browser-history records. It does not revisit old URLs over the network to fetch page content.
-- Browsers do not allow extensions to run in InPrivate/Incognito windows by default. If the user explicitly allows HistoryDog in private windows, the extension may process relevant data under this policy.
+- InPrivate/Incognito tabs are not written to the page metadata index. The background process rejects storage based on the private-tab state supplied by the browser.
 
 Users can disable or clear the local page metadata index at any time in the settings page.
 
